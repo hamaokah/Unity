@@ -84,6 +84,10 @@ Material:
         second: .5
       data:
         first:
+          name: PixelSnap
+        second: 0
+      data:
+        first:
           name: _SrcBlend
         second: 1
       data:
@@ -138,7 +142,7 @@ Material:
       data:
         first:
           name: _Color
-        second: {r: 1, g: 0, b: .3931036, a: 1}
+        second: {r: .897058845, g: 0, b: .0185596868, a: 1}
       data:
         first:
           name: _EmissionColorUI
