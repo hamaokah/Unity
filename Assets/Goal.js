@@ -3,6 +3,7 @@
 private var ballCount : int; // ボールの数
 private var counter : int; // ゴールに触れているボールのカウンター
 private var cleared : boolean; // クリアした
+var labelStyle : GUIStyle; // この中にスタイルの設定が保持される
 
 // 開始時の処理
 function Start () {
@@ -35,6 +36,6 @@ function OnGUI (){
  if (cleared == true) {
   var sw : int = Screen.width;
   var sh : int = Screen.height;
-  GUI.Label(Rect(sw / 6, sh / 3, sw * 2 / 3, sh / 3), "CLEARED!!");
+  GUI.Label(Rect(sw / 6, sh / 3, sw * 2 / 3, sh / 3), "CLEARED!!", labelStyle); // GUILabelを呼び出す
   }
  }
