@@ -19,7 +19,8 @@ function OnTriggerEnter(other : Collider) {
   if (cleared == false && counter == ballCount){
    // クリア判定成立
    cleared = true;
-   Debug.Log("Cleared!");
+   yield WaitForSeconds (2.0); // 関数の処理を2秒停止
+   Application.LoadLevel ("Scene_Meiro_Title"); // タイトル画面へ戻る
   }
  }
 }
