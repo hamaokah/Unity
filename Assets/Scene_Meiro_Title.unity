@@ -247,7 +247,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
 --- !u!1001 &143806911
 Prefab:
   m_ObjectHideFlags: 0
@@ -391,7 +391,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
 --- !u!4 &751471082
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 1b2791615972a6040867c553df7b2e8d, type: 2}
@@ -431,7 +431,7 @@ Transform:
   - {fileID: 751471082}
   - {fileID: 954728357}
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
 --- !u!1 &1115717505
 GameObject:
   m_ObjectHideFlags: 0
@@ -491,7 +491,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1593656485}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!1001 &1131667991
 Prefab:
   m_ObjectHideFlags: 0
@@ -572,7 +572,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
 --- !u!4 &1569315708
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 1b2791615972a6040867c553df7b2e8d, type: 2}
@@ -603,11 +603,10 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1834045366}
   - {fileID: 1115717507}
   - {fileID: 2047973177}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
 --- !u!114 &1593656486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -726,7 +725,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 0
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_HDR: 0
@@ -743,7 +742,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 17.2555408, z: -7.90289402}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1593656485}
+  m_Father: {fileID: 0}
   m_RootOrder: 0
 --- !u!1 &2002052941
 GameObject:
@@ -890,7 +889,7 @@ Transform:
   m_LocalScale: {x: 10, y: 1, z: 10}
   m_Children: []
   m_Father: {fileID: 1593656485}
-  m_RootOrder: 2
+  m_RootOrder: 1
 --- !u!1001 &2139869403
 Prefab:
   m_ObjectHideFlags: 0
